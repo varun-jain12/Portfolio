@@ -48,7 +48,6 @@
 
 #tsparticles {
     width: 100%;
-    /* background-color :#112D32 ; */
     background-image: linear-gradient(to right top, #254e58, #3c6870, #548389, #6da0a2, #88bdbc);
     height: 100%;
     position: absolute;
@@ -161,7 +160,6 @@ body{
 
     .card-image-top{
         width: 100% !important;
-        /* height: 40vh !important; */
         object-fit: cover !important;
     }
 
@@ -206,7 +204,7 @@ body{
         }
 
         #About{
-            padding-top: 10rem;
+            padding-top: 15rem;
         }
 
         #home .intro{
