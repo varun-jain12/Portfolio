@@ -1,0 +1,238 @@
+.navbar{
+    padding: 0.8rem !important;
+
+}
+
+.navbar .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+ 
+
+.nav-item{
+    margin-left: 1rem;
+    font-size: 1.2rem !important;
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 600;
+}
+
+.navbar-brand{
+    margin-left: 5rem !important;
+     font-family: 'Work Sans', sans-serif; 
+     font-weight: 800;
+     letter-spacing: 0.5rem !important;
+}
+
+/* end of navigation bar */
+
+#tsparticles {
+    width: 100%;
+    /* background-color :#112D32 ; */
+    background-image: linear-gradient(to right top, #254e58, #3c6870, #548389, #6da0a2, #88bdbc);
+    height: 100%;
+    position: absolute;
+}
+
+body{
+    margin: 0;
+     text-align: center; 
+     font-family: 'Literata', serif;
+}
+
+
+#home{
+    color: whitesmoke;
+}
+
+.myimage{
+    margin: 0;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+    border-radius: 60%;
+    position: relative;
+    z-index: 1;
+    margin-top: 10rem;
+
+}
+
+#home h1{
+    position: relative;
+    z-index: 1;
+    margin: 50px auto 0 auto;
+    font-size: 4rem;
+    
+}
+#home .intro{
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+    font-weight: normal;
+    width: 35%;
+    margin: auto;
+    line-height: 2;
+}
+
+#About{
+    margin-top: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+    background: rgb(205,221,222);
+    background: linear-gradient(83deg, rgba(205,221,222,1) 0%, rgba(11,49,68,1) 100%);
+    color: whitesmoke;
+    margin-bottom: 0;
+}
+
+
+    
+    #About .intro-para{
+        font-size: 2rem;
+        width: 70%;
+        margin : 4rem auto;
+        margin-bottom: 6rem;
+    }
+
+    .startskills{
+        font-size: 40px;
+        font-weight: 600;
+        }
+
+    .cskills{
+        height: 200px;
+        width: 200px;
+        border-radius: 80%;
+         
+    }
+    
+    .skill-row{
+        width: 50%;
+        margin: 100px auto ;
+        text-align: left;
+        line-height: 2;
+    }
+    
+    .gaming{
+        float: left;
+        margin-right: 30px;
+    }
+    
+    .coding{
+        float: right;
+        margin-left: 30px;
+    }
+    
+    .webD{
+        float: left;
+        margin-right: 30px;
+    }
+    
+
+    #Projects{
+        text-align: center;
+        padding: 3rem !important;
+        background-color:#254E58;
+    }
+
+    .card{
+        margin: 1rem !important;
+        margin-top: 2rem !important;
+    }
+
+    .card-image-top{
+        width: 100% !important;
+        /* height: 40vh !important; */
+        object-fit: cover !important;
+    }
+
+    .card-logo{
+        display: inline-block;
+        height: 3rem;
+        width: 3rem;
+        margin: 1rem;
+        margin-bottom: 3rem;
+    }
+
+
+    #Contact{
+        text-align: center !important;
+        margin-top: 0;
+        background-color: #112D32 !important;
+    }
+
+
+    .Social{
+        margin: 1.5rem;
+         padding: 0.7rem;
+        border-radius: 50%;
+        
+    }
+
+    .Social:hover{
+        opacity: 0.7 !important;
+    }
+
+    
+
+
+    @media only screen and (max-width: 600px) {
+        .navbar-brand{
+            margin-left: 0 !important;
+        }
+        
+
+        #home h1{
+            font-size: 2rem ;
+        }
+
+        #About{
+            padding-top: 10rem;
+        }
+
+        #home .intro{
+            width: 70%;
+        }
+
+        .intro-para{
+            font-size: 1rem !important;
+        }
+
+    } 
+    @media only screen and (max-width: 400px) {
+        .navbar-brand{
+           margin-right: 0 !important;
+        }
+
+        .card-logo{
+            display: inline-block;
+            height: 1.5rem;
+            width: 1.5rem;
+            margin: 0.5rem;
+        }
+    }
+
+    @media only screen and (min-width: 1000px){
+        #About{
+            padding-top: 12rem;
+        }
+    }
